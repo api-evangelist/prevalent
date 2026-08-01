@@ -1,8 +1,24 @@
 aid: prevalent
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prevalent.png
 name: Prevalent
-description: 'Prevalent is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Prevalent is a third-party risk management (TPRM) software vendor whose platform automates
+  vendor risk assessment, continuous monitoring, and compliance workflows across the third-party lifecycle.
+  Surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub
+  for enrichment (sector: cybersecurity). Prevalent has since been acquired by Mitratech; www.prevalent.net
+  now redirects to mitratech.com/products/prevalent/. Enrichment found no public developer portal, REST
+  API, OpenAPI specification, SDK, or webhook surface — the only documented integration is a DocuSign
+  connector inside the Contract Essentials module.'
 url: https://raw.githubusercontent.com/api-evangelist/prevalent/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,17 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: mitratech
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cybersecurity
+- Third-Party Risk Management
+- TPRM
+- Vendor Risk
+- Governance Risk Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/prevalent-domain-security.yml
 - type: Website
   url: http://www.prevalent.net/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

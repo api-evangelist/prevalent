@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.prevalent.net
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 30 18:31:11 2026 GMT
+  hsts: false
+domains:
+- domain: prevalent.net
+  dnssec: false
+  caa:
+  - 0 issue "letsencrypt.org"
+  - 0 issue "pki.goog"
+  - 0 issue "starfieldtech.com"
+  - 0 issue "amazon.com"
+  - 0 issue "digicert.com"
+  - 0 issue "godaddy.com"
+  spf: true
+  dmarc: true
+  dmarc_policy: quarantine
