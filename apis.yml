@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'http://www.prevalent.net/', status: 301, note: 'declared website redirects to https://mitratech.com/products/prevalent/ — a different registrable domain (prevalent.net -> mitratech.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prevalent.png
 name: Prevalent
 description: 'Prevalent is a third-party risk management (TPRM) software vendor whose platform automates
