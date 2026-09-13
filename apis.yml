@@ -66,3 +66,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-parent: mitratech
+x-relationship: acquisition
