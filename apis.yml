@@ -47,9 +47,17 @@ tags:
 - Company
 - Cybersecurity
 - Third-Party Risk Management
+- Vendor Risk
+- Governance Risk Compliance
+- Risk Management
+tags_raw:
+- Company
+- Cybersecurity
+- Third-Party Risk Management
 - TPRM
 - Vendor Risk
 - Governance Risk Compliance
+- Risk Management
 apis: []
 maintainers:
 - FN: Kin Lane
